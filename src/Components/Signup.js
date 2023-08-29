@@ -16,7 +16,7 @@ const SignupForm = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:3000/signup', {
+      const response = await axios.post('https://gurkul.onrender.com/signup', {
         name,
         email,
         phone,
