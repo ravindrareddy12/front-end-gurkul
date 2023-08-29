@@ -14,7 +14,7 @@ const LoginForm = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:3000/login', {
+      const response = await axios.post('https://gurkul.onrender.com/login', {
         email,
         password,
       });
